@@ -1,4 +1,4 @@
-@foreach($info[0] as $key =>$value)
+@foreach($info as $key =>$value)
 
     {{dd($value)}}
 
