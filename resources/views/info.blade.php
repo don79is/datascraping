@@ -1,7 +1,7 @@
-@foreach($info as $key =>$value)
-
-    {{dd($value)}}
 
 
+    {{dd($info)}}
 
-@endforeach
+
+
+
