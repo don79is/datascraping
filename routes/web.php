@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/scrap',['as' => 'app.scrap.index','uses' => 'DDGrabingController@index']);
+Route::get('/alldata',['as' => 'app.alldata.index','uses' => 'DDGrabingController@alldata']);
+Route::get('/grab',['as' => 'app.grab.index','uses' => 'SASController@index']);
